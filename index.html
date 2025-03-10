@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="icon" href="https://cidr.entsoft.com.ng/favicon.ico" type="image/x-icon">
+  
+    
+    <!-- Primary Meta Tags -->
+    <title>Dynamic QR Code Generator | Create & Download Free QR Codes</title>
+    <meta name="description" content="Generate custom QR codes instantly for your URLs, text, and more. Our free Dynamic QR Code Generator is quick, easy, and powered by Entsoft." />
+    <meta name="keywords" content="QR Code Generator, dynamic QR code, free QR code, QR code download, generate QR code, entsoft" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Dynamic QR Code Generator" />
+    <meta property="og:description" content="Generate and download custom QR codes for your website, text, and more. Powered by Entsoft." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qrcode.entsoft.com.ng" />
+    <meta property="og:image" content="https://cidr.entsoft.com.ng/favicon.ico" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dynamic QR Code Generator" />
+    <meta name="twitter:description" content="Generate and download custom QR codes for your website, text, and more. Powered by Entsoft." />
+    <meta name="twitter:image" content="https://cidr.entsoft.com.ng/favicon.ico" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    
+    <!-- QR Code JS -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+  </head>
+<body>
+  <header class="header">
+    <h1>QR Code Generator</h1>
+  </header>
+
+  <div class="container">
+    <div class="input-group">
+      <input type="text" id="qr-input" placeholder="Enter URL or text">
+      <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+    <div id="qrcode" style="display: none;"></div>
+          <button onclick="downloadQR()" id="download-btn" style="display: none;">Download QR</button>
+
+  </div>
+
+  <footer class="footer">
+    <p>Created by <a style="color: grey;" href="https://www.linkedin.com/in/ogbu-daniel-88b5371b9">Daniel</a> Powered by Entsoft</p>
+  </footer>
+
+  <script src="./script.js">
+ 
+  </script>
+</body>
+</html>
